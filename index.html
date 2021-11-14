@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интернет-магазин мебели</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="firstscreen">
+    <div class="magic_center">
+      <header class="header">
+        <picture>
+          <source media="(max-width: 739px)" srcset="./img/mobile/svg/logo_mobile.svg">
+          <a href="./index.html"><img class='logo' src='./img/logo.svg' alt='логотип'></a>
+        </picture>
+        <input class='search' type="text" placeholder="Поиск">
+        <nav class="headerNav">
+          <a class='nav' href="./catalog.html">Каталог</a>
+          <a class='nav' href="./basket.html">Корзина</a>
+        </nav>
+        <nav class="headerNav__mobile">
+          <a class='nav__mobile' href="#"><img src="./img/mobile/png/search.png" alt="Поиск"></a>
+          <a class='nav__mobile' href="#"><img src="./img/mobile/png/menu_burger.png" alt="Меню"></a>
+          <a class='nav__mobile' href="./basket.html"><img src="./img/mobile/png/basket.png" alt="Корзина"></a>
+        </nav>
+        </nav>
+      </header>
+      <h1 class="title">Всё, чего заслуживает ваш дом</h1>
+      <p class="description">Наша мебель — ваше отражение</p>
+      <div class="box__catalog"><a class="catalog" href='catalog.html'>Перейти в каталог</a></div>
+
+    </div>
+  </div>
+
+  <main class="mainContent magic_center">
+    <section class="furnitureFor">
+      <h2 class="furnitureForTitle">Мебель для ... </h2>
+      <div class="grid_furniture">
+        <div class="blockFor big__item item__1">ОТДЫХА</div>
+        <div class="blockFor big__item item__2">РАБОТЫ</div>
+        <div class="blockFor small__item item__3">КУХНИ</div>
+        <div class="blockFor small__item item__4">ДЕТСКОЙ</div>
+        <div class="blockFor small__item item__5">ВАННОЙ</div>
+      </div>
+    </section>
+    <section class="specialOffer">
+      <h2 class="specoff">Специальные предложения</h2>
+      <div class="specialOffList">
+        <div class="specialOffProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/voda.jpg">
+            <img src="./img/Rectangle 22.jpg" alt="Люстра VODA">
+          </picture>
+          <h3 class="titleProduct">Люстра VODA</h3>
+          <p class="descrProduct">Основание из полированной нержавеющей стали, придает оригинальный парящий
+            эффект.</p>
+          <div class="specialOffPrice">
+            <p class="salePrice">45 000 руб.</p>
+            <p class="fullPrice">67 000 руб.</p>
+          </div>
+        </div>
+        <div class="specialOffProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/ronald.jpg">
+            <img src="./img/Rectangle 23.jpg" alt="Диван RONALD">
+          </picture>
+          <h3 class="titleProduct">Диван RONALD</h3>
+          <p class="descrProduct">Модель отличается простотой линий и форм, отсутствием броского декора.</p>
+          <div class="specialOffPrice">
+            <p class="salePrice">156 000 руб.</p>
+            <p class="fullPrice">198 000 руб.</p>
+          </div>
+        </div>
+        <div class="specialOffProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/vent.jpg">
+            <img src="./img/Rectangle 24.jpg" alt="Комод VENT">
+          </picture>
+          <h3 class="titleProduct">Комод VENT</h3>
+          <p class="descrProduct">Европейский дуб - отличается особой прочностью и стабильностью.</p>
+          <div class="specialOffPrice">
+            <p class="salePrice">34 000 руб.</p>
+            <p class="fullPrice">45 000 руб.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specialOffer">
+      <h2 class="catalogTitle">Каталог товаров</h2>
+      <div class="productList">
+        <div class="catalogProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/tatran.jpg">
+            <img src="./img/bed.jpg" alt="Кровать">
+          </picture>
+          <h3 class="titleProduct">Кровать TATRAN</h3>
+          <p class="descrProduct">Основание из полированной нержавеющей стали, придает оригинальный парящий
+            эффект.</p>
+          <p class="salePrice">120 000 руб.</p>
+        </div>
+        <div class="catalogProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/vilora.jpg">
+            <img src="./img/product1.jpg" alt="Жёлтое кресло">
+          </picture>
+          <h3 class="titleProduct">Кресло VILORA</h3>
+          <p class="descrProduct">Мягкое и уютное, аккуратное и стильное. Упругие подушки, сиденья и приятная
+            на ощупь ткань.</p>
+          <p class="salePrice">21 000 руб.</p>
+        </div>
+        <div class="catalogProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/menu.jpg">
+            <img src="./img/table.jpg" alt="Стол">
+          </picture>
+          <h3 class="titleProduct">Стол MENU</h3>
+          <p class="descrProduct">Для того чтобы трапезничать было приятно, необходим правильный обеденный
+            стол.</p>
+          <p class="salePrice">34 000 руб.</p>
+        </div>
+        <div class="catalogProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/asketa.jpg">
+            <img src="./img/blue-kreslo.jpg" alt="Синее кресло">
+          </picture>
+          <h3 class="titleProduct">Кресло ASKESTA</h3>
+          <p class="descrProduct">Высокоэластичный пенополиуретан в «начинке» кресла надежен и долговечен</p>
+          <p class="salePrice">68 000 руб.</p>
+        </div>
+        <div class="catalogProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/norman.jpg">
+            <img src="./img/table2.jpg" alt="Стол">
+          </picture>
+          <h3 class="titleProduct">Стол NORMAN</h3>
+          <p class="descrProduct">Прекрасно переносит солнечные лучи, перепады влажности и любые осадки</p>
+          <p class="salePrice">40 000 руб.</p>
+        </div>
+        <div class="catalogProduct">
+          <picture>
+            <source media="(max-width: 739px)" srcset="./img/mobile/jpg/nastan.jpg">
+            <img src="./img/sofa.jpg" alt="Диван">
+          </picture>
+          <h3 class="titleProduct">Диван NASTAN</h3>
+          <p class="descrProduct">ВМодель отличается простотой линий и форм, отсутствием броского декора. </p>
+          <p class="salePrice">80 000 руб.</p>
+        </div>
+      </div>
+      <a class="linkCatalog" href='catalog.html'>Перейти в каталог</a>
+    </section>
+  </main>
+
+  <footer class="footer magic_center">
+    <a href="./index.html"><img class="footerLogo" src='./img/logo-black..svg' alt='логотип'></a>
+    <div class="footerContent">
+      <div class="footerColumn" class="footerMenu">
+        <h4 class="footerPoint">Меню</h4>
+        <a class="footerLink" href="#">Главная</a>
+        <a class="footerLink" href="./catalog.html">Каталог</a>
+        <a class="footerLink" href="./basket.html">Корзина</a>
+      </div>
+      <div class="footerColumn" class="footerContact">
+        <h4 class="footerPoint">Контакты</h4>
+        <a class="footerLink" href="tel:+79088008080">+7 908 800 80 80</a>
+        <a class="footerLink" href="mailto:help@interier.com">help@interier.com</a>
+        <div class="socialNetwork">
+          <a class="socialLogo" href="#"><img src="./img/inst.svg" alt="Instagram"></a>
+          <a class="socialLogo logoTwitter" href="#"><img src="./img/Vector (1).svg" alt="Twitter"></a>
+          <a class="socialLogo" href="#"><img src="./img/facebook.svg" alt="Facebook"></a>
+        </div>
+      </div>
+    </div>
+    <div class="formFollow">
+      <form class="footerForm" action='#'>
+        <p class="subscriptionTitle">Получайте наши новости и обновления</p>
+        <input class="subscriptionEmail" type='email' placeholder="Email Address">
+        <button class="subscriptionButton">Подписаться</button>
+      </form>
+    </div>
+  </footer>
+</body>
+
+</html>
