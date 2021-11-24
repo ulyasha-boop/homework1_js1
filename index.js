@@ -1,7 +1,7 @@
-"use strict";
+`use strict`;
 
-let nameProduct = "VILORA";
-let priceProduct = 21000;
-let productDescription = `${nameProduct}, цена ${priceProduct} рублей`;
+const nameProduct = `VILORA`;
+const priceProduct = 21000;
+const productDescription = `${nameProduct}, цена ${priceProduct} рублей`;
 
 alert(productDescription);
